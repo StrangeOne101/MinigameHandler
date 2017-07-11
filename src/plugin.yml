@@ -1,0 +1,14 @@
+name: MinigameHandler
+main: com.strangeone101.minigamehandler.MinigameHandler
+version: 1.0
+depend: []
+prefix: MGHandler
+commands:
+  minigame:
+    description: Create/edit minigames
+    aliases: [mng]
+    usage: /minigame
+permissions:
+  minigamehandler.command:
+    description: Allows you to do stufff
+    default: op
